@@ -1,27 +1,27 @@
 .mesa{ // estilizar com a classe mesa
-    position: fixed;
+    position: fixed;// o elemento ficará fixo mesma posição sempre 
     width:900px;// define a largura da mesa
     height:600px; define a altura da mesa
     background-color: green;// define a cor da mesa "verde"
       }
 .robot{
-   position: relative;
+   position: relative;//usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele
    top:5px; // define a distância da borda
-   left:15px;
+   left:15px; // definir a posição horizontal do robot 
    width:160px;// define a largura do robot 
    height:60px; //define a altura do robot 
    background-color: black;  } //define a cor do robot "preto"
 .jogador{
-    position: relative;
+    position: relative;//usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele
     top:390px;
-    left:15px;
+    left:15px;// definir a posição horizontal do jogador 
     width:160px;// define a largura do jogador 
     height:60px;//define a altura do jogador 
     background-color: black; } //define a cor do jogador"preto"
 .baralho{
-    position: relative;
+    position: relative;//usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele
     top:200px;
-    left:315px;
+    left:315px;// definir a posição horizontal do baralho 
     width:60px;//define a largura do baralho 
     height:80px;//define a altura do baralho 
     background-color:yellow;} //define a cor do baralho"amarelo"

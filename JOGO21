@@ -3,15 +3,15 @@
 <head> //cabeça do sistema 
     <meta charset="UTF-8"> // define se tem ou não caracteres especiais 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">//
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">// tem a função de relacionar  
+    <title>Document</title> // define o título da página 
+    <link rel="stylesheet" href="estilo.css">// informa ao navegador para usar o arquivo CSS   
 </head>
-<body>
-    <div class="mesa">
+<body> // o corpo do documento html 
+    <div class="mesa"> //utilizado para agrupar elementos para fins de estilos 
         <div class="robot"></div>
         <div class="baralho"></div>
         <div class="jogador"></div>
     
-    </div>
+    </div> 
 </body>
 </html>
